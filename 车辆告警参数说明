@@ -1,0 +1,120 @@
+
+	/**
+	 * 车架号
+	 */
+	private String vinCode;
+	
+	/**
+	 * 数据源
+	 */
+	private int source;
+	
+	/**
+	 * 国标告警等级
+	 */
+	private int standardAlarmLevel;
+	
+	/**
+	 * 温度差异报警
+	 */
+	private int temperatureDifference;
+	
+	/**
+	 * 电池高温报警
+	 */
+	private int batteryHighTemperature;
+	
+	/**
+	 * SOC低报警
+	 */
+	private int socLow;
+	
+	/**
+	 * SOC过高报警
+	 */
+	private int socOver;
+	
+	/**
+	 * SOC跳变报警
+	 */
+	private int socLeaping;
+	
+	/**
+	 * 单体电池过压报警
+	 */
+	private int singleBatteryOverpressure;
+	
+	/**
+	 * 单体电池欠压报警
+	 */
+	private int singleBatteryUnderpressure;
+	
+	/**
+	 * 电池单体一致性差报警
+	 */
+	private int batterySingleConformingBad;
+	
+	/**
+	 * 电池包
+	 */
+	private String batteryStatus;
+	
+	/**
+	 * BMS自检状态是否完成
+	 */
+	private int bmsSelfTest;
+	
+	/**
+	 * BMS预充电故障
+	 */
+	private int bmsPrecharge;
+	
+	/**
+	 * BMS充电过流故障
+	 */
+	private int bmsChargingOvercurrent;
+	
+	/**
+	 * BMS放电过流故障
+	 */
+	private int bmsDischargeOvercurrent;
+	
+	/**
+	 * BMS子板CAN通讯故障
+	 */
+	private int bmsSlaveCANFlt;
+	
+	/**
+	 * BMS电池温度传感器故障
+	 */
+	private int bmsTempSensor;
+	
+	/**
+	 * BMS与VCU间CAN通讯故障
+	 */
+	private int FltbmsVCU;
+	
+	/**
+	 * BMS与充电机CAN通讯故障
+	 */
+	private int bmsBatteryCharger;
+	
+	/**
+	 * 温度过低故障
+	 */
+	private int bmsLTempFlt;
+	
+	/**
+	 * 电池编号
+	 */
+	private String batteryNos;
+	
+	/**
+	 * bms编号
+	 */
+	private String bmsNos;
+
+	/**
+	 * 上报时间
+	 */
+	private long createTime;
