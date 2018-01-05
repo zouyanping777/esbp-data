@@ -1,0 +1,179 @@
+/**
+	 * 能源站id
+	 */
+	private String uid;
+	
+	/**
+     * 数据源
+     */
+	private int source;
+	
+	/**
+	 * 货架号
+	 */
+	private int shelfNo;
+	
+	/**
+	 * 行
+	 */
+	private int row;
+	
+	/**
+	 * 列
+	 */	
+	private int column;
+
+    /**
+     * 充电设备类型
+     */
+	private int chargeType;
+	
+	/**
+	 * 国标告警等级
+	 */	
+	private int standardAlarmLevel;
+	
+	/**
+	 * 私有告警等级
+	 */	
+	private int woasisAlarmLevel;
+	
+	/**
+	 * 温度差异报警
+	 */	
+	private int temperatureDifference;
+	
+	/**
+	 * 电池高温报警
+	 */	
+	private int batteryHighTemperature;
+	
+	/**
+	 * SOC低报警
+	 */	
+	private int socLow;
+	
+	/**
+	 * SOC过高报警
+	 */	
+	private int socOver;
+	
+	/**
+	 * SOC跳变报警
+	 */	
+	private int socLeaping;
+	
+	/**
+	 * 单体电池过压报警
+	 */	
+	private int singleBatteryOverpressure;
+	
+	/**
+	 * 单体电池欠压报警
+	 */	
+	private int singleBatteryUnderpressure;
+	
+	/**
+	 * 电池单体一致性差报警
+	 */	
+	private int batterySingleConformingBad;
+	
+	/**
+	 * 电芯压差过限
+	 */	
+	private int overVoltageLimitElectricCore;
+	
+	/**
+	 * 电池包间压差过限
+	 */	
+	private int batteryPressureDifferenceOverLimit;
+	
+	/**
+	 * EBD电压与模块电压校验不通过
+	 */	
+	private int eBDCheckOut;
+	
+	/**
+	 * 电池一级过温
+	 */	
+	private int batteryOverTemperature;
+	
+	/**
+	 * 充电时长超限
+	 */	
+	private int chargeLengthOverrun;
+	
+	/**
+	 * 单芯电压高
+	 */	
+	private int highSingleCoreVoltage;
+	
+	/**
+	 * 从板掉线
+	 */	
+	private int disconnectedFromBoard;
+	
+	/**
+	 * 接触器故障
+	 */	
+	private int contactorFault;
+	
+	/**
+	 * 充电模块故障
+	 */	
+	private int chargingModuleFault;
+	
+	/**
+	 * 单芯电压过高
+	 */	
+	private int singleCoreOvervoltage;
+	
+	/**
+	 * 单芯电压过低
+	 */	
+	private int singleCoreVoltageLow;
+	
+	/**
+	 * 托盘总压过高
+	 */	
+	private int excessiveTotalTrayPressure;
+	
+	/**
+	 * 托盘总压过低
+	 */	
+	private int lowTotalTrayPressure;
+	
+	/**
+	 * 单包电池电压过高
+	 */	
+	private int voltageSingleCellHigh;
+	
+	/**
+	 * 单包电池电压过低
+	 */	
+	private int voltageSingleCellLow;
+	
+	/**
+	 * 电池二级过温
+	 */	
+	private int batteryLevelTwoOverTemperature;
+	
+	/**
+	 * 电池温度过低
+	 */	
+	private int batteryTemperatureLow;
+	
+	/**
+	 * 电池编号
+	 */	
+	private String batteryNos;
+	
+	/**
+	 * bms编号
+	 */
+	private String bmsNos;
+
+    /**
+	 * 上报时间
+	 */
+	private long createTime;
