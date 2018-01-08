@@ -1,0 +1,15 @@
+# 地址:http://10.0.0.143:9098/batteryInfo/getBatteryInfoByBmsNo/C00001022600
+返回 ：
+{
+    "code":"1000",
+    "msg":null,
+    "data":{
+        "vinCode":"MMV2ARB25G0010226",
+        "batteryGroupNo":"02310-A00111",
+        "batteryNo":"EZC0001022600",
+        "bmsNo":"C00001022600",
+        "batteryType":1,
+        "source":2,
+        "createTime":1515147288271
+    }
+}
