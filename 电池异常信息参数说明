@@ -1,0 +1,49 @@
+/**
+	 * 主键
+	 */
+	private Long id;
+	
+	/**
+	 * 唯一标示
+	 */
+	private String uid;
+	
+	/**
+	 * 车架号
+	 */
+	private String vinCode;
+	
+	/**
+	 * 电池组编号
+	 */
+	private String batteryGroupNo;
+	
+	/**
+	 * 电池编号
+	 */
+	private String batteryNo;
+	
+	/**
+	 * bms编号
+	 */
+	private String bmsNo;
+	
+	/**
+	 * 数据源
+	 */
+	private int source;
+
+	/**
+	 * 起始时间
+	 */
+	private Long startTime;
+
+	/**
+	 * 结束时间
+	 */
+	private Long endTime;
+	
+	/**
+	 * 处理状态0：未处理1：人工处理2：自动处理
+	 */
+	private int states;
