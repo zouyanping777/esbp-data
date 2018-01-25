@@ -24,7 +24,7 @@
     }
 }
 3、根据IMSI修改缓存信息
-地址：http://10.0.0.143:9098/vehicleInfo/getUnameCache/460040261611768
+地址：http://10.0.0.143:9098/vehicleInfo/updateUname/460040261611768
 返回：{
     "code":"1000",
     "msg":null,
